@@ -1,0 +1,211 @@
+
+html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    background-color: #262626;
+}
+header{
+    position: relative;
+    background-color: rgba(0,0,0,0.8);
+}
+.header{
+    top :0; 
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    text-decoration: none;
+}
+.task{
+    display: flex;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+    background-color: #262626;
+    text-decoration: none;
+    
+}
+.task .imgfb{
+    height: 40px;
+    width: auto;
+    border-radius: 55%;
+    margin-right: 8px;
+    margin-left: 10px;
+}
+.task input{
+    border-radius: 20px;
+    background-color: #5c5959;
+    width: 250px;
+    height: 30px;
+    color:darkgray ;
+    border: none;
+    text-decoration: none;
+
+}
+.header div a ion-icon{
+    color: darkgray;
+    width: 50px;
+    height: 30px;
+}
+.person{
+    width: 100px; 
+    height: 37px; 
+    display: flex; 
+    align-items: center; 
+    background-color: rgb(236, 230, 230); 
+    margin-left: 280px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/*
+    page1
+*/
+.page1{
+    height: 617px;
+    background-color: #323131;
+}
+.photo-editing{
+    position:absolute;
+    height: 36px;
+    width: 160px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border-radius: 7px;
+    margin-top: 330px;
+    margin-left: 920px;
+    text-decoration: none;
+    color: #262626;
+}
+.photo-editing ion-icon{
+    width: 20px;
+    height: 30px;
+    margin-left: 6px;
+}
+.photo-editing p{
+    margin-left: 4px;
+}
+.add-tin{
+    position:absolute;
+    height: 36px;
+    width: 130px;
+    display: flex;
+    background-color:royalblue;
+    align-items: center;
+    border-radius: 7px;
+    margin-top: 470px;
+    margin-left: 742px;
+    text-decoration: none;
+    color:white;
+}
+.add-tin ion-icon{
+    width: 20px;
+    height: 30px;
+    margin-left: 6px;
+    
+}
+.add-tin p{
+    margin-left: 4px;
+}
+.fix-page{
+    position:absolute;
+    height: 36px;
+    width: 200px;
+    display: flex;
+    background-color:#b4b4b4;
+    align-items: center;
+    border-radius: 7px;
+    margin-top: 470px;
+    margin-left: 880px;
+    text-decoration: none;
+    color:black;
+}
+.fix-page ion-icon{
+    width: 20px;
+    height: 30px;
+    margin-left: 6px;
+    
+}
+.fix-page p{
+    margin-left: 4px;
+}
+.add-{
+    display: flex;
+    margin-top: 80px;
+}
+.page1 hr{
+    margin-top: 143px;
+    width: 1035px;
+    margin-left: 42px;
+    border: 0.1px solid darkgray;
+}
+.category{
+    display: flex;
+    margin-left: 40px;
+    text-align: center;
+    align-items: center;
+}
+.category a{
+    height: 50px;
+    width: 70px;
+    display: block;
+    color: darkgray;
+    margin-top: 0px;
+    margin-right: 4px;
+}
+
+
+/* phần thân*/
+
+.page2{
+    height: 617px;
+    
+}
+.introduce{
+    width: 422px;
+    height: 547px;
+    background-color: #323131;
+    display: block;
+   margin-top: 10px;
+   margin-left: 250px;
+   border-radius: 10px;
+    
+}
+.introduce ion-icon{
+    color: red;
+    margin-top: 5px;
+}
+.post-personal{
+    width: 592px;
+    height: 125px;
+    display: block;
+    background-color: #323131;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.post-personal a ion-icon{
+    width: 30px;
+    height: 30px;
+}
+.post-personal a p{
+    color: rgb(197, 192, 192);
+    margin-top: 6px;
+    margin-left: 5px;
+}
+.change-avatar{
+    width: 592px;
+    height: 603px;
+    display: block;
+    background-color: #323131;
+    margin-top: 20px;
+    border-radius: 10px;
+}
