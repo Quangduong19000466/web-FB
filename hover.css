@@ -1,0 +1,16 @@
+/*
+    header
+*/
+
+.header .task .task-icon:hover{
+    border-radius: 10px;
+    background-color: #3f3e3e;
+}
+.category a:hover{
+    background-color: #3f3e3e;
+    border-radius: 5px;
+}
+.post-personal .post a:hover{
+    background-color: #3f3e3e;
+    border-radius: 5px;
+}
